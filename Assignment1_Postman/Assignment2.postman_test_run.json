@@ -1,0 +1,47 @@
+{
+	"id": "7f97f7ab-f8da-4de4-9a2a-7686788930d8",
+	"name": "Assignment2",
+	"timestamp": "2022-03-30T11:41:09.843Z",
+	"collection_id": "19963587-a75883bb-55b4-4b4e-a98f-d938646698aa",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9c0c7e91-efbc-4b4f-9d65-06efcc194ba4",
+			"name": "POST",
+			"time": 220,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				229,
+				202,
+				231,
+				202,
+				220
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 1084,
+	"collection": {
+		"requests": [
+			{
+				"id": "9c0c7e91-efbc-4b4f-9d65-06efcc194ba4",
+				"method": "POST"
+			}
+		]
+	}
+}
