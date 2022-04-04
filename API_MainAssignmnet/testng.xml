@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/sahankh/IdeaProjects/API_MainAssignmnet">
+        <classes>
+            <class name="RestAssured.CreateTasks">
+                <methods>
+                    <include name="add_tasks"/>
+                    <include name="pagination"/>
+                </methods>
+            </class>
+            <class name="RestAssured.CreateUser">
+                <methods>
+                    <include name="userRegister"/>
+                    <include name="userLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
